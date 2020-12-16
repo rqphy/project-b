@@ -1,6 +1,6 @@
 import "./App.css";
 import Bases from "./Pages/Bases/Bases";
-import Framework from "./Pages/Framework/Framework";
+import Frameworks from "./Pages/Frameworks/Frameworks";
 import Home from "./Pages/Home/Home";
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <Home />
       <Bases />
-      <Framework />
+      <Frameworks />
     </div>
   );
 }

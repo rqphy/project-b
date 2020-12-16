@@ -1,4 +1,4 @@
-import "./Framework.scss";
+import "./Frameworks.scss";
 
 function Framework() {
   return (
