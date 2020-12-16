@@ -2,8 +2,8 @@ import "./Frameworks.scss";
 
 function Framework() {
   return (
-    <div className="Framework">
-      <h1 className="Framework__title">Framework</h1>
+    <div className="Frameworks">
+      <h1 className="Frameworks__title">Frameworks</h1>
     </div>
   );
 }
