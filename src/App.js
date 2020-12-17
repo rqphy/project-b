@@ -19,13 +19,6 @@ function App() {
         <Route exact path="/git" component={Git} />
       </Switch>
     </BrowserRouter>
-    // <div className="App">
-    //   <Home />
-    //   <Bases />
-    //   <Frameworks />
-    //   <Projects />
-    //   <Git />
-    // </div>
   );
 }
 
