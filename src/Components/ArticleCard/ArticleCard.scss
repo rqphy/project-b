@@ -1,0 +1,13 @@
+.ArticleCard {
+    border: 2px solid tomato;
+    width: 224px;
+    height: 280px;
+    background-color: #FFF;
+
+    &__img {
+        background-color: tomato;
+        width: 100%;
+        height: 84px;
+    }
+
+}
