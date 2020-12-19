@@ -1,5 +1,3 @@
-// import './ArticleCard.scss';
-
 function ArticleCard() {
     return (
         <article className="ArticleCard" >
