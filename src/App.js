@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 
 import "./App.css";
+import "./index.scss";
 import Bases from "./Pages/Bases/Bases";
 import Frameworks from "./Pages/Frameworks/Frameworks";
 import Git from "./Pages/Git/Git";

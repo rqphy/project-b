@@ -1,5 +1,3 @@
-import "./Bases.scss";
-
 function Bases() {
   return (
     <div className="Bases">

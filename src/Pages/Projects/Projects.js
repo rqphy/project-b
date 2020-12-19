@@ -1,5 +1,3 @@
-import "./Projects.scss";
-
 function Projects() {
   return (
     <div className="Projects">

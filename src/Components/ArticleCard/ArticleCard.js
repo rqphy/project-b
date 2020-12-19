@@ -1,4 +1,4 @@
-import './ArticleCard.scss';
+// import './ArticleCard.scss';
 
 function ArticleCard() {
     return (

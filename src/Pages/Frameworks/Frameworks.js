@@ -1,5 +1,3 @@
-import "./Frameworks.scss";
-
 function Framework() {
   return (
     <div className="Frameworks">

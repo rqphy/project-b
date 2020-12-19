@@ -9,6 +9,11 @@
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 4px;
 
+    @include medium {
+        width: 270px;
+        height: 320px;
+    }
+
 
     &__category {
         margin-left: 26px;

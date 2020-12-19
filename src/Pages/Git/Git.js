@@ -1,5 +1,3 @@
-import "./Git.scss";
-
 function Git() {
   return (
     <div className="Git">
