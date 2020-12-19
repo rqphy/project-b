@@ -1,34 +1,38 @@
 .Header {
-    display: none;
+  display: none;
 
-    @include large {
-        height: 60px;
-        width: 100%;
-        background-color: #F7F7F7;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 0 30px;
+  @include large {
+    height: 60px;
+    width: 100%;
+    background-color: #f7f7f7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+
+  &__link,
+  &__about {
+    text-decoration: none;
+    color: #76818b;
+
+    &:hover {
+      text-decoration: underline;
     }
+  }
 
-    &__link, &__about {
-        text-decoration: none;
-        color: #76818B;
+  &__link {
+    text-transform: uppercase;
+    margin: 0 20px;
 
-        &:hover {
-            text-decoration: underline;
-        }
+    &--active {
+      color: salmon;
     }
+  }
 
-    &__link {
-        text-transform: uppercase;
-        margin: 0 20px;
-    }
-
-    &__logo {
-        height: 20px;
-        width: 40px;
-        background-color: salmon;
-    }
-
+  &__logo {
+    height: 20px;
+    width: 40px;
+    background-color: salmon;
+  }
 }
