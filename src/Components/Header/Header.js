@@ -1,8 +1,7 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 function Header() {
   const links = [
-    { title: "Acceuil", url: "/" },
     { title: "Bases", url: "/bases" },
     {
       title: "Frameworks",
@@ -17,7 +16,9 @@ function Header() {
 
   return (
     <header className="Header">
-      <div className="Header__logo">Logo</div>
+      <Link className="Header__logo" to="/">
+        Logo
+      </Link>
       <nav className="Header__nav">
         {links.map((link, index) => (
           <NavLink
