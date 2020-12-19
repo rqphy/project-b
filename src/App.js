@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 
 import "./App.css";
 import "./index.scss";
+import Header from "./Components/Header/Header";
 import Bases from "./Pages/Bases/Bases";
 import Frameworks from "./Pages/Frameworks/Frameworks";
 import Git from "./Pages/Git/Git";
@@ -12,6 +13,7 @@ import Projects from "./Pages/Projects/Projects";
 function App() {
   return (
     <BrowserRouter>
+      <Header />
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/bases" component={Bases} />
