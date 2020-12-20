@@ -1,3 +1,8 @@
-.Git__title {
-  background-color: yellowgreen;
+.Git {
+  &__title {
+    background-color: green;
+  }
+  &__image {
+    display: none;
+  }
 }
