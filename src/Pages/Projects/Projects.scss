@@ -1,3 +1,8 @@
-.Projects__title {
-  background-color: wheat;
+.Projects {
+  &__title {
+    background-color: wheat;
+  }
+  &__image {
+    display: none;
+  }
 }

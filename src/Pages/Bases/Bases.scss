@@ -1,3 +1,8 @@
-.Bases__title {
-  background-color: blue;
+.Bases {
+  &__title {
+    background-color: blue;
+  }
+  &__image {
+    display: none;
+  }
 }
