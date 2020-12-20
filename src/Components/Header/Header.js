@@ -25,7 +25,7 @@ function Header() {
             className="Header__link"
             to={link.url}
             key={index}
-            activeClassName="Header__link--act"
+            activeClassName="Header__link--active"
           >
             {link.title}
           </NavLink>
