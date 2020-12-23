@@ -1,6 +1,40 @@
+$smallTeam: 46px;
+$marginBottom: 24px;
+
 h1 {
   background-color: red;
 }
 .Home__image {
   display: none;
+}
+
+.about {
+  width: 100%;
+  padding-left: 20px;
+
+  &__title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: $marginBottom;
+  }
+
+  &__team {
+    display: flex;
+    margin-bottom: $marginBottom;
+  }
+
+  &__img {
+    width: $smallTeam;
+    height: $smallTeam;
+    background: cadetblue;
+    border-radius: 50%;
+    margin-right: 14px;
+  }
+
+  &__text {
+    width: 90%;
+    font-size: 16px;
+    line-height: 24px;
+    border: 2px solid green;
+  }
 }
