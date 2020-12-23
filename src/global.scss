@@ -9,3 +9,12 @@
     @content;
   }
 }
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @include large {
+    margin-top: 50px;
+  }
+}

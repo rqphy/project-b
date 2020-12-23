@@ -2,7 +2,7 @@ import ArticleCard from "../../Components/ArticleCard/ArticleCard";
 
 function Home() {
   return (
-    <div>
+    <main className="page">
       <img
         class="Home__image"
         src="../../assets/navbar/home.png"
@@ -10,7 +10,7 @@ function Home() {
       ></img>
       <h1>Home</h1>
       <ArticleCard />
-    </div>
+    </main>
   );
 }
 
