@@ -12,21 +12,23 @@ function Home() {
       <ArticleCard />
       <secion className="about">
         <h2 className="about__title">À propos</h2>
-        <div className="about__team">
-          <div className="about__img"></div>
-          <div className="about__img"></div>
-          <div className="about__img"></div>
-          <div className="about__img"></div>
-        </div>
-        <p className="about__text">
-          Nous sommes un groupe de développeur web étudiant à Hetic. Vous pouvez
-          trouver plus d’info sur nous ci-dessus.
-        </p>
-        <p className="about__text">
-          Ce blog existe pour que vous puissiez retrouver plein d’infos sur le
-          developpement web! Si vous avez des questions ou des conseils
-          contactez nous.
-        </p>
+        <article className="about__container">
+          <div className="about__team">
+            <div className="about__img"></div>
+            <div className="about__img"></div>
+            <div className="about__img"></div>
+            <div className="about__img"></div>
+          </div>
+          <p className="about__text">
+            Nous sommes un groupe de développeur web étudiant à Hetic. Vous
+            pouvez trouver plus d’info sur nous ci-dessus.
+          </p>
+          <p className="about__text">
+            Ce blog existe pour que vous puissiez retrouver plein d’infos sur le
+            developpement web! Si vous avez des questions ou des conseils
+            contactez nous.
+          </p>
+        </article>
       </secion>
     </main>
   );
