@@ -1,4 +1,5 @@
 import ArticleCard from "../../Components/ArticleCard/ArticleCard";
+import Profile from "../../Components/Profile/Profile";
 
 function Home() {
   return (
@@ -10,6 +11,7 @@ function Home() {
       ></img>
       <h1>Home</h1>
       <ArticleCard />
+      <Profile />
       <secion className="about">
         <h2 className="about__title">À propos</h2>
         <article className="about__container">
