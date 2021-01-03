@@ -1,3 +1,20 @@
+$smallTeam: 46px;
+$largeTeam: 124px;
+
 .Profile {
-  background-color: cadetblue;
+  border: 2px solid yellow;
+
+  &__img {
+    width: $smallTeam;
+    height: $smallTeam;
+    background: cadetblue;
+    border-radius: 50%;
+    margin-right: 14px;
+
+    @include large {
+      width: $largeTeam;
+      height: $largeTeam;
+      margin: 0;
+    }
+  }
 }
