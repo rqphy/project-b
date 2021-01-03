@@ -2,19 +2,26 @@ $smallTeam: 46px;
 $largeTeam: 124px;
 
 .Profile {
-  border: 2px solid yellow;
+  border: 2px solid brown;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 14px;
 
   &__img {
     width: $smallTeam;
     height: $smallTeam;
     background: cadetblue;
     border-radius: 50%;
-    margin-right: 14px;
 
     @include large {
       width: $largeTeam;
       height: $largeTeam;
       margin: 0;
     }
+  }
+
+  &__title {
+    font-size: 10px;
   }
 }

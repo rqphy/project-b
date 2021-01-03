@@ -12,6 +12,7 @@ function Home() {
       <h1>Home</h1>
       <ArticleCard />
       <Profile />
+      <Profile title="hello" />
       <secion className="about">
         <h2 className="about__title">À propos</h2>
         <article className="about__container">
