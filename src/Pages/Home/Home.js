@@ -11,8 +11,6 @@ function Home() {
       ></img>
       <h1>Home</h1>
       <ArticleCard />
-      <Profile />
-      <Profile title="hello" />
       <secion className="about">
         <h2 className="about__title">À propos</h2>
         <article className="about__container">
@@ -21,10 +19,6 @@ function Home() {
             <Profile />
             <Profile />
             <Profile />
-            {/* <div className="about__img"></div>
-            <div className="about__img"></div>
-            <div className="about__img"></div>
-            <div className="about__img"></div> */}
           </div>
           <p className="about__text">
             Nous sommes un groupe de développeur web étudiant à Hetic. Vous
