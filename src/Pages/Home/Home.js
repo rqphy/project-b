@@ -17,10 +17,14 @@ function Home() {
         <h2 className="about__title">À propos</h2>
         <article className="about__container">
           <div className="about__team">
+            <Profile />
+            <Profile />
+            <Profile />
+            <Profile />
+            {/* <div className="about__img"></div>
             <div className="about__img"></div>
             <div className="about__img"></div>
-            <div className="about__img"></div>
-            <div className="about__img"></div>
+            <div className="about__img"></div> */}
           </div>
           <p className="about__text">
             Nous sommes un groupe de développeur web étudiant à Hetic. Vous
