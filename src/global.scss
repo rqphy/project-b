@@ -9,3 +9,25 @@
     @content;
   }
 }
+
+body {
+  width: 100vw;
+  max-width: 100%;
+}
+
+#root {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.page {
+  max-width: 855px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @include large {
+    margin-top: 50px;
+    width: 100%;
+  }
+}
