@@ -34,7 +34,6 @@ h1 {
   &__container {
     @include large {
       width: 80%;
-      border: 2px solid blue;
     }
   }
 
@@ -42,7 +41,6 @@ h1 {
     display: flex;
     margin-bottom: $marginBottom;
     width: 60%;
-    border: 2px solid green;
 
     @include large {
       width: 100%;
@@ -54,7 +52,6 @@ h1 {
     width: 90%;
     font-size: 16px;
     line-height: 24px;
-    border: 2px solid green;
 
     @include large {
       width: 100%;
