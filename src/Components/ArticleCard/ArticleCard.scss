@@ -10,6 +10,8 @@
   border-radius: 4px;
   border: 2px solid green;
   font-family: "PT Sans", sans-serif;
+  text-decoration: none;
+  color: black;
 
   @include medium {
     width: 270px;
