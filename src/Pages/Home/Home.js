@@ -1,5 +1,6 @@
 import ArticleCard from "../../Components/ArticleCard/ArticleCard";
 import Profile from "../../Components/Profile/Profile";
+import Articles from "../../Components/Articles/Articles";
 
 function Home() {
   return (
@@ -10,7 +11,19 @@ function Home() {
         alt="Home"
       ></img>
       <h1>Home</h1>
-      <ArticleCard />
+      <section className="articles section">
+        <form action="">
+          <select name="articles" id="articles">
+            <option value="dernierement">Dernierement</option>
+            <option value="Tendence">Tendence</option>
+            // value sans espace ?????
+            <option value="Selection de ressources">
+              Selection de reessources
+            </option>
+          </select>
+        </form>
+        <Articles />
+      </section>
       <secion className="about section">
         <h2 className="section__title  about__title">À propos</h2>
         <article className="section__container  about__container">
